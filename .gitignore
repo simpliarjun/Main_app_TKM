@@ -1,0 +1,112 @@
+# ==========================
+# Environment Variables & Secrets
+# ==========================
+
+# Environment files (NEVER commit these!)
+.env
+.env.local
+.env.*.local
+!.env.example
+*.key
+*.pem
+secrets/
+
+# ==========================
+# Python (Django Backend)
+# ==========================
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Virtual environments
+.venv/
+env/
+venv/
+.env
+
+# Django
+media/
+static/
+staticfiles/
+db.sqlite3
+*.sqlite3
+
+# ==========================
+# Flutter (Frontend)
+# ==========================
+
+# Dart/Flutter
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+.buildlog/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Build directories
+build/
+**/build/
+
+# Generated files
+*.g.dart
+*.config.dart
+
+# iOS build files
+ios/Flutter/.last_build_id
+ios/Flutter/Generated*
+ios/Pods/
+ios/build/
+
+# Android build files
+android/.gradle/
+android/app/build/
+android/local.properties
+
+# macOS build files
+macos/Flutter/ephemeral/
+macos/Pods/
+macos/build/
+
+# Windows & Linux ephemeral folders
+windows/flutter/ephemeral/
+linux/flutter/ephemeral/
+
+# APK and AAB files
+*.apk
+*.aab
+*.aar
+
+# ==========================
+# IDE / Editor
+# ==========================
+
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.swp
+*.swo
+
+# ==========================
+# OS Files
+# ==========================
+
+.DS_Store
+Thumbs.db
+.svn/
+
+# ==========================
+# Logs
+# ==========================
+
+*.log
+logs/
